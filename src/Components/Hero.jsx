@@ -16,7 +16,7 @@ export default function Hero() {
 
           {/* 3. Aspiring AI & Machine Learning Engineer */}
           <p className="hero-role">
-            Software Developer | Tech Enthusisast | Learning by Building
+            Software Developer | Tech Enthusiast | Learning by Building
           </p>
 
           {/* 4. The summary paragraph (Moved from summary-section) */}

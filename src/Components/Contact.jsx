@@ -12,9 +12,24 @@ export default function Contact() {
           feel free to reach out anytime!
         </p>
 
-        <a href="mailto:chsairithivik@gmail.com" className="contact-btn">
-          SEND A MAIL
-        </a>
+        <div className="contact-details">
+          <div className="contact-card">
+            <h3>Email</h3>
+            <p>
+              <a href="mailto:chsairithivik@gmail.com">
+                chsairithivik@gmail.com
+              </a>
+            </p>
+          </div>
+
+          <div className="contact-card">
+            <h3>Phone</h3>
+            <p>
+              <a href="tel:+919491140307">+91 9491140307</a>
+            </p>
+          </div>
+        </div>
+
       </div>
     </section>
   );

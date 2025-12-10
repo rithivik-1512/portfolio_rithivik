@@ -444,4 +444,26 @@ h2 {
     white-space: normal; /* Allow wrapping on small screens */
   }
 }
+.contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
 
+.contact-card {
+  background: #0d0d0d;
+  padding: 25px 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  width: 260px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.contact-card:hover {
+  border-color: #00eaff;
+  transform: translateY(-6px);
+}

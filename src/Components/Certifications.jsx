@@ -34,7 +34,7 @@ export default function Certifications() {
 
         <div className="cert-card">
           <h3>Adobe Hackathon Participation</h3>
-          <a href={cert4} target="_blank" className="cert-btn">View Certificate</a>
+          <a href={cert5} target="_blank" className="cert-btn">View Certificate</a>
         </div>
 
       </div>

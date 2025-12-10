@@ -7,7 +7,7 @@ import Experience from "./Components/Experience";
 import Education from "./Components/Education";
 import Certifications from "./Components/Certifications";
 import Contact from "./Components/Contact";
-import Footer from "./Components/Footer.jsx"
+import Footer from "./Components/Footer"
 
 import "./styles.css";
 
@@ -21,6 +21,7 @@ function App() {
       <Experience />
       <Education />
       <Certifications />
+      <Contact />
       <Footer />
     </>
   );
